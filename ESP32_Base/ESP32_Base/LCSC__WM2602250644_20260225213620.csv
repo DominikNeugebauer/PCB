@@ -1,0 +1,16 @@
+LCSC Part Number,Manufacture Part Number,Manufacturer,Customer NO.,Package,Description,RoHS,Quantity,Unit Price($),Ext.Price($),Estimated lead time (business days),Date Code / Lot No.,Status
+C165948,TYPE-C-31-M-12,Korean Hroparts Elec,,SMD,USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount,YES,5,0.1827,0.91,,,-
+C6186,AMS1117-3.3,Advanced Monolithic Systems,,SOT-223,"3.3V 16V Positive Fixed SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",YES,5,0.1971,0.99,,,-
+C2913205,ESP32-S3-WROOM-1-N16R2,ESPRESSIF,,"SMD,25.5x18mm","2.4GHz ESP32-S3 On-board PCB Antenna -103.5dBm SMD,25.5x18mm RF Transceiver Modules and Modems RoHS",YES,3,4.8016,14.40,,,-
+C116501,PTS810SJM250SMTRLFS,C&K,,"SMD-4P,4.2x3.2mm",Tactile Switch SPST 160gf 2.5mm J-Lead 4.2mm x 3.2mm Surface Mount,YES,6,,,,,Inquiring
+C98220,RC0603FR-0710KL,YAGEO,,0603,100mW 10kΩ 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.0013,0.13,,,-
+C105588,RC0603FR-07100RL,YAGEO,,0603,100mW 100Ω 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.0013,0.13,,,-
+C46956322,LESD5D5.0CT1G,TDSEMIC,,SOD-523,18.6VC Clamp 9A Ipp ESD DIODE SOD-523,YES,50,0.0175,0.88,,,-
+C82544,1N5819HW-7-F,DIODES,,SOD-123,25A 1 Independent 40V 450mV@1A 1A SOD-123 Single Diodes RoHS,YES,20,0.0295,0.59,,,-
+C23186,0603WAF5101T5E,UNI-ROYAL,,0603,5.1kΩ ±1% 100mW 0603 Thick Film Resistor,YES,100,0.0012,0.12,,,-
+C19702,CL10A106KP8NNNC,Samsung Electro-Mechanics,,0603,10uF ±10% 10V Ceramic Capacitor X5R 0603,YES,100,0.0065,0.65,,,-
+C2909394,FRC0603F33R0TS,FOJAN,,0603,33Ω ±1% 100mW 0603 Thick Film Resistor,YES,100,0.0012,0.12,,,-
+C28310439,YLED1206R,YONGYUTAI,,1206,Red 635nm LED Indication - Discrete 1.8V~2.4V 1206,YES,50,0.0119,0.60,,,-
+C28310438,YLED1206B,YONGYUTAI,,1206,Blue 465nm LED Indication - Discrete 2.6V~3.1V 1206,YES,50,0.015,0.75,,,-
+C112309,RC0603FR-0775RL,YAGEO,,0603,75Ω 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS,YES,100,0.0015,0.15,,,-
+C2930092,FRC0603F3000TS,FOJAN,,0603,300Ω ±1% 100mW 0603 Thick Film Resistor,YES,100,0.0013,0.13,,,-
