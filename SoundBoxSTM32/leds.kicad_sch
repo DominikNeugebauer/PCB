@@ -737,6 +737,12 @@
 		(uuid "062e1f7c-ea79-4419-859a-c783d3d22d35")
 	)
 	(junction
+		(at 104.14 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a394d5a-edc7-48d9-b753-d680ebb00f68")
+	)
+	(junction
 		(at 161.29 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1052,6 +1058,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7d5744-cca3-45f3-8eb0-405d85729c7b")
+	)
+	(wire
+		(pts
 			(xy 127 121.92) (xy 138.43 121.92)
 		)
 		(stroke
@@ -1142,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 106.68) (xy 116.84 106.68)
+			(xy 60.96 106.68) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1219,6 +1235,16 @@
 			(type default)
 		)
 		(uuid "32535dcd-bdbd-401c-9265-66392691933d")
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 119.38 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3305cd04-1d9b-4b7f-8c28-3e0ebcba3fdc")
 	)
 	(wire
 		(pts
@@ -1319,6 +1345,16 @@
 			(type default)
 		)
 		(uuid "45396693-b184-46be-8439-92df4289cb75")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462c96bd-1362-4c26-92ef-25b7705ddc47")
 	)
 	(wire
 		(pts
@@ -2042,6 +2078,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 106.68) (xy 104.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac198dc-fe9d-4af4-ac32-3c455b5e4f7b")
+	)
+	(wire
+		(pts
 			(xy 143.51 106.68) (xy 143.51 111.76)
 		)
 		(stroke
@@ -2473,6 +2519,87 @@
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/993f1463-f1ff-45a4-a728-07af5645c17c"
 					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e23efe6-c30e-4572-bc70-0f6f4a4a40a2")
+		(property "Reference" "C41"
+			(at 106.934 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 106.934 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.1052 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "308d3fb2-364d-4a2e-b41b-08829ca71eb9")
+		)
+		(pin "1"
+			(uuid "bddf47de-8282-482d-9ad0-79177163e518")
+		)
+		(instances
+			(project "SoundBoxSTM32"
+				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/993f1463-f1ff-45a4-a728-07af5645c17c"
+					(reference "C41")
 					(unit 1)
 				)
 			)
