@@ -4560,7 +4560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 263.8552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4641,7 +4641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 249.8852 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4722,7 +4722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4882,7 +4882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -4962,7 +4962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 66.04 56.896 0)
 			(hide yes)
 			(show_name no)
@@ -5290,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:SOD3715X145N"
+		(property "Footprint" "Diode_SMD:1N5819HW-7-F"
 			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5582,7 +5582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5664,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FS8205A:SOP65P640X120-8N"
+		(property "Footprint" "Transistor_Power:FS8205A"
 			(at 121.92 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5895,7 +5895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OS102011MA1QN1:SWITCH_11MA1QN1"
+		(property "Footprint" "Valve:OS102011MA1QN1"
 			(at 243.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +6102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "1043_KEY"
+		(property "Footprint" "Battery:1043_KEY"
 			(at 30.48 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6184,7 +6184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "Filter:TPS3840PL42DBVR"
 			(at 218.44 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.942 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 188.9252 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6516,7 +6516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "Battery:SOT95P280X145-5N_TLV75733PDBVR"
 			(at 218.44 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6607,7 +6607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.92 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -6687,7 +6687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 43.18 105.41 0)
 			(hide yes)
 			(show_name no)
