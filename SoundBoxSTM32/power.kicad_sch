@@ -3511,7 +3511,7 @@
 		)
 		(uuid "674bc2e2-986e-440b-bde8-743af19ab575")
 	)
-	(text "Using TPS3840PL35DBVR for 3.5V cut off voltage"
+	(text "Using TPS3840DL35DBVR for 3.5V cut off voltage"
 		(exclude_from_sim no)
 		(at 225.806 65.786 0)
 		(effects
@@ -3520,6 +3520,12 @@
 			)
 		)
 		(uuid "87b1e5bd-95e7-48dc-a0b7-60b645ec9ff1")
+	)
+	(junction
+		(at 187.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f882322-788e-46fa-9a2a-299d3f302c67")
 	)
 	(junction
 		(at 187.96 46.99)
@@ -3740,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "1edc1eb3-afa7-4d2b-83c3-6bb34b1c34c0")
+	)
+	(wire
+		(pts
+			(xy 187.96 41.91) (xy 187.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ea1b22-cf20-4cee-bb30-2779861c2991")
 	)
 	(wire
 		(pts
@@ -4023,6 +4039,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 30.48) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dc8f39-65c3-4d0f-96c5-e99f3071d6c4")
+	)
+	(wire
+		(pts
 			(xy 30.48 115.57) (xy 30.48 107.95)
 		)
 		(stroke
@@ -4043,6 +4069,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 30.48) (xy 196.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a824da29-8713-4b7f-b105-7ec7b0fd3339")
+	)
+	(wire
+		(pts
+			(xy 187.96 30.48) (xy 187.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20f54e6-9e3e-4694-96b3-0bdd8cecd3f8")
+	)
+	(wire
+		(pts
 			(xy 194.31 114.3) (xy 200.66 114.3)
 		)
 		(stroke
@@ -4060,6 +4106,16 @@
 			(type default)
 		)
 		(uuid "b314ab44-6f50-4b48-81ee-000ca507eff2")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 198.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b698528f-c138-43fb-b958-787d246fe2b5")
 	)
 	(wire
 		(pts
@@ -4273,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 41.91) (xy 198.12 41.91)
+			(xy 179.07 30.48) (xy 187.96 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4431,7 @@
 	)
 	(global_label "LDO_EN"
 		(shape input)
-		(at 179.07 41.91 180)
+		(at 179.07 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4385,7 +4441,7 @@
 		)
 		(uuid "430c9381-7142-4b41-b6c1-39d560eddb7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0091 41.91 0)
+			(at 169.0091 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS3840PL35DBVR"
+		(property "Value" "TPS3840DL35DBVR"
 			(at 218.44 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,6 +6867,88 @@
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/da862b86-043d-4ba7-89a1-a115fc999c21"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cd1a2b-50af-4b50-809e-86e89b8fd703")
+		(property "Reference" "R1"
+			(at 190.5 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 190.5 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 186.182 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a2167ff-8d1e-4c8f-ab0c-c87aba9acf58")
+		)
+		(pin "2"
+			(uuid "e3ab1a9e-04c0-49cf-9347-a2246a7bfbd9")
+		)
+		(instances
+			(project "SoundBoxSTM32"
+				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/da862b86-043d-4ba7-89a1-a115fc999c21"
+					(reference "R1")
 					(unit 1)
 				)
 			)

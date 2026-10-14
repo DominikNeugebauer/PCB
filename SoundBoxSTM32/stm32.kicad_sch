@@ -4401,6 +4401,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4478,6 +4484,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C8")
 					(unit 1)
 				)
@@ -4564,6 +4576,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4642,6 +4660,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4716,6 +4740,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -4802,6 +4832,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4883,6 +4919,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4957,6 +4999,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5052,6 +5100,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5130,6 +5184,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5216,6 +5276,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5294,6 +5360,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5368,6 +5440,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -5639,6 +5717,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5717,6 +5801,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C3")
 					(unit 1)
 				)
@@ -5802,6 +5892,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5877,6 +5973,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -5963,6 +6065,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6037,6 +6145,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6119,6 +6233,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C9")
 					(unit 1)
 				)
@@ -6391,6 +6511,12 @@
 					(unit 2)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6491,6 +6617,18 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
