@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4345d5dc-df28-4a93-8f43-9a9da907205a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 151.13 93.98)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37ac52f8-ddf8-43cc-9e3f-152ff2e99658")
+		(property "Sheetname" "Power"
+			(at 151.13 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 151.13 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rubberducky"
+				(path "/4345d5dc-df28-4a93-8f43-9a9da907205a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 93.98)
+		(size 13.97 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "89d73bc8-fcf1-465b-8a2f-0b7ae32e61a0")
+		(property "Sheetname" "STM32"
+			(at 133.35 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 133.35 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rubberducky"
+				(path "/4345d5dc-df28-4a93-8f43-9a9da907205a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

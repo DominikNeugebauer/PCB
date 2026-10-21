@@ -4401,6 +4401,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4436,7 +4442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.2852 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4482,6 +4488,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4518,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4560,6 +4572,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C4")
 					(unit 1)
 				)
@@ -4642,6 +4660,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4720,6 +4744,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4756,7 +4786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4802,6 +4832,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4837,7 +4873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.1352 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4879,6 +4915,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C5")
 					(unit 1)
 				)
@@ -4961,6 +5003,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4997,7 +5045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 251.46 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5052,6 +5100,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5088,7 +5142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5134,6 +5188,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5170,7 +5230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.4152 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5212,6 +5272,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C1")
 					(unit 1)
 				)
@@ -5294,6 +5360,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5372,6 +5444,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5405,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP64-10x10mm_STM"
+		(property "Footprint" "Module:STM32H573RIT6"
 			(at 69.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5639,6 +5717,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5675,7 +5759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.1952 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5721,6 +5805,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5756,7 +5846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.1052 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5798,6 +5888,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C6")
 					(unit 1)
 				)
@@ -5881,6 +5977,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5917,7 +6019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5959,6 +6061,12 @@
 		(instances
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/f90f1609-04aa-4e00-be78-74d8ffc5bd99"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
 					(reference "C2")
 					(unit 1)
 				)
@@ -6041,6 +6149,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6077,7 +6191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.4452 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6123,6 +6237,12 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6157,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP64-10x10mm_STM"
+		(property "Footprint" "Module:STM32H573RIT6"
 			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6391,6 +6511,12 @@
 					(unit 2)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6427,7 +6553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 208.28 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6491,6 +6617,18 @@
 					(unit 1)
 				)
 			)
+			(project "stm32"
+				(path "/c3e1f4a1-8576-44fb-afbb-b640a5b0a209"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

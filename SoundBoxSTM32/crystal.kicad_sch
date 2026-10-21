@@ -1296,7 +1296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECS-80-18-23B-JTN-TR:XTAL_ECS-80-18-23B-JTN-TR"
+		(property "Footprint" "Crystal:XTAL_ECS-80-18-23B-JTN-TR"
 			(at 172.72 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1470,7 +1470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1552,7 +1552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.0852 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1710,7 +1710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XTAL_SC32S-7PF20PPM_EPS"
+		(property "Footprint" "Crystal:XTAL_SC32S-7PF20PPM_EPS"
 			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1872,7 +1872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1954,7 +1954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.5952 106.68 0)
 			(hide yes)
 			(show_name no)

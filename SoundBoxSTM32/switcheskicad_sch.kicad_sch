@@ -2216,6 +2216,12 @@
 			(uuid "1357bc2e-47da-4d83-9318-0c57a64e422f")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR027")
@@ -2295,6 +2301,12 @@
 			(uuid "b588266f-be08-4030-805a-f219cebe6566")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R24")
@@ -2373,6 +2385,12 @@
 			(uuid "a891e7d4-6d8c-432e-a26d-819c46712156")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR029")
@@ -2452,6 +2470,12 @@
 			(uuid "9c1ae323-6305-42d1-8f4e-ea0316c3afa5")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R10")
@@ -2531,6 +2555,12 @@
 			(uuid "99b0ad7d-8c60-4830-a161-e98c3252879a")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R12")
@@ -2573,7 +2603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -2613,6 +2643,12 @@
 			(uuid "b02f4296-bbd2-4a41-987d-5b0709264c23")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C29")
@@ -2653,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 227.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2696,6 +2732,12 @@
 			(uuid "b395f89f-aba5-45c3-a25e-d8b4893dfdf2")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW10")
@@ -2775,6 +2817,12 @@
 			(uuid "2f361642-1f69-44ed-9a69-f49e1c9c4c6e")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R17")
@@ -2815,7 +2863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 153.67 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2858,6 +2906,12 @@
 			(uuid "7895864c-89b6-4807-adfa-8156a25d4332")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW6")
@@ -2900,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2940,6 +2994,12 @@
 			(uuid "1a0e5e79-e90c-482c-94b2-5d398bafb31a")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C30")
@@ -2980,7 +3040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 80.01 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3023,6 +3083,12 @@
 			(uuid "52da71ef-d0ed-4c1c-83ca-772eab624110")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW2")
@@ -3065,7 +3131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3105,6 +3171,12 @@
 			(uuid "a72b9fd4-b50c-4524-8261-2a464b2ed48f")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C19")
@@ -3184,6 +3256,12 @@
 			(uuid "5b12b0a7-5d5c-4e35-99ce-ea9310a9f73f")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R22")
@@ -3262,6 +3340,12 @@
 			(uuid "0f25f56c-eba3-4f45-a9de-efdb7aebb3aa")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR023")
@@ -3341,6 +3425,12 @@
 			(uuid "d21d47c2-2011-4da5-bd1f-be9b39a8880a")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R26")
@@ -3419,6 +3509,12 @@
 			(uuid "90ab3365-026b-4946-aa1d-2bc606eb1eda")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR026")
@@ -3498,6 +3594,12 @@
 			(uuid "d0d968dd-9878-4703-8ac5-bf834b8dbd81")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R16")
@@ -3538,7 +3640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 153.67 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3581,6 +3683,12 @@
 			(uuid "456b9133-a932-4dff-83c5-821fc5a76a02")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW9")
@@ -3623,7 +3731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3663,6 +3771,12 @@
 			(uuid "a7bc835c-e728-4e74-81c7-29603e0e03bb")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C27")
@@ -3742,6 +3856,12 @@
 			(uuid "beff8632-77a6-4fa5-87d3-e6b79543d89b")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R13")
@@ -3782,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 153.67 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3825,6 +3945,12 @@
 			(uuid "d1bcf023-dfb4-443f-8afc-c57eb6dca45c")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW3")
@@ -3904,6 +4030,12 @@
 			(uuid "4b09bf67-a17f-4593-a552-d1995b26bc8c")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R27")
@@ -3982,6 +4114,12 @@
 			(uuid "1364fe5f-b3ed-4def-8bee-71fc4e0e468b")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR025")
@@ -4061,6 +4199,12 @@
 			(uuid "374e2a1e-5801-47f5-a546-203a49d506da")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R11")
@@ -4139,6 +4283,12 @@
 			(uuid "6165e5c7-8eb3-4438-a0df-fc4d54e25cf5")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR028")
@@ -4181,7 +4331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4221,6 +4371,12 @@
 			(uuid "a48cf147-d52a-453a-a61f-0b2c87f8cfb5")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C20")
@@ -4263,7 +4419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4303,6 +4459,12 @@
 			(uuid "8bb8500d-2b3d-4f53-9907-a826aa3e4d37")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C18")
@@ -4343,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4386,6 +4548,12 @@
 			(uuid "3b16eafb-cb07-4a79-b78d-ae3215f03795")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW4")
@@ -4464,6 +4632,12 @@
 			(uuid "7418a2ec-62e2-4027-992a-764421e95d85")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR024")
@@ -4543,6 +4717,12 @@
 			(uuid "2133eea1-ab16-4fd0-9388-d5d40214b47a")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R18")
@@ -4622,6 +4802,12 @@
 			(uuid "fac8b56c-bd88-48c1-b2b3-11364a949e16")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R21")
@@ -4700,6 +4886,12 @@
 			(uuid "384d55ed-a3f3-4e2f-bc78-044a9018346b")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR030")
@@ -4779,6 +4971,12 @@
 			(uuid "08e55c97-58e6-4d76-97fb-0a39ad0e9c7e")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R19")
@@ -4857,6 +5055,12 @@
 			(uuid "a70c64be-1cff-4808-9526-45e8f5b709ce")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "#PWR022")
@@ -4936,6 +5140,12 @@
 			(uuid "5913aa60-24c3-4a55-ad8d-687b0c3dbcd4")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R14")
@@ -5015,6 +5225,12 @@
 			(uuid "4377a5de-ddc7-451a-8719-cb16cea8f91d")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R15")
@@ -5094,6 +5310,12 @@
 			(uuid "86388eef-4d5f-45aa-afb4-d242b2f4e57a")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R25")
@@ -5173,6 +5395,12 @@
 			(uuid "ff96f3e7-2a79-423f-bdc4-6ace9b7f3670")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R23")
@@ -5213,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 80.01 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5256,6 +5484,12 @@
 			(uuid "393c2ed0-8c4a-492f-8fd9-648ccf63ed5b")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW8")
@@ -5296,7 +5530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 227.33 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5339,6 +5573,12 @@
 			(uuid "975fe93b-fe3a-4a25-88c8-c74b23dd5bdd")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW5")
@@ -5418,6 +5658,12 @@
 			(uuid "b314315c-ce57-450d-bd03-98a5431439d4")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "R20")
@@ -5460,7 +5706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5500,6 +5746,12 @@
 			(uuid "031dedae-7349-4dcc-b394-6eec5843c514")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C31")
@@ -5540,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:D2F-01L_OMR"
 			(at 80.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5583,6 +5835,12 @@
 			(uuid "f11fc02d-cd2c-4ee0-90c9-39f7f68437ac")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "SW7")
@@ -5625,7 +5883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.6252 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5665,6 +5923,12 @@
 			(uuid "ee676225-7980-4871-9813-b413e9043526")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C26")
@@ -5707,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5747,6 +6011,12 @@
 			(uuid "42f6a4d9-03ce-460a-bc8d-be4afdc64883")
 		)
 		(instances
+			(project "switcheskicad_sch"
+				(path "/4a79d074-a939-4cb8-80e3-4f6c12679e51"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "SoundBoxSTM32"
 				(path "/772370ca-37f0-4ee2-8966-d2564cda862d/828c5ce5-51a2-4a93-a7ce-2a394b008b29"
 					(reference "C28")
@@ -5755,4 +6025,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
