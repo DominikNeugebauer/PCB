@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fdebc50b-3737-4b53-9320-ade950ffc720")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 186.69 111.76)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "005ea2cf-c854-4b7d-b264-087518e77f0b")
+		(property "Sheetname" "Leds4"
+			(at 186.69 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds4.kicad_sch"
+			(at 186.69 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 78.74)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0191f184-5d50-4f75-95c4-3cc2ad37ae56")
+		(property "Sheetname" "ESP32"
+			(at 63.5 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 63.5 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 111.76)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0612e490-9ab2-4e64-8dbe-4875c0f7ff30")
+		(property "Sheetname" "Leds1"
+			(at 95.25 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds1.kicad_sch"
+			(at 95.25 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 111.76)
+		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "28d3af83-83e5-4748-a193-ce4bc873e40a")
+		(property "Sheetname" "Leds"
+			(at 63.5 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 63.5 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 78.74)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "53cf9a47-8a20-434d-aa1a-3d8b6acf0633")
+		(property "Sheetname" "Periph"
+			(at 156.21 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "periph.kicad_sch"
+			(at 156.21 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 78.74)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77dff0ab-75f1-477f-9810-c64ca340f744")
+		(property "Sheetname" "Power"
+			(at 95.25 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 95.25 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 111.76)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3cfffa6-0590-4be0-b184-043ff82d8c32")
+		(property "Sheetname" "Leds2"
+			(at 125.73 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds2.kicad_sch"
+			(at 125.73 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 78.74)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de95f777-b989-4f0a-97d8-f855a0c08c04")
+		(property "Sheetname" "ResetBoot"
+			(at 125.73 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resetboot.kicad_sch"
+			(at 125.73 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 111.76)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb0e5488-a1d1-4b45-98bd-6ec27bec5915")
+		(property "Sheetname" "Leds3"
+			(at 156.21 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds3.kicad_sch"
+			(at 156.21 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoveBox"
+				(path "/fdebc50b-3737-4b53-9320-ade950ffc720"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

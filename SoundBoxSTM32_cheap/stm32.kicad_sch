@@ -1411,10 +1411,6 @@
 		(uuid "98a7dfb8-8916-4b3f-89dd-8550448b3c55")
 	)
 	(no_connect
-		(at 115.57 118.11)
-		(uuid "b4e6373e-ed36-460c-8d95-1a2d6306b3ca")
-	)
-	(no_connect
 		(at 115.57 102.87)
 		(uuid "ddf344eb-312b-4f42-b154-a66f1921b132")
 	)
@@ -1843,6 +1839,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BAT_SENSE"
+		(shape input)
+		(at 115.57 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a27c343d-ac85-463c-aff9-27728b6850df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2435 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
