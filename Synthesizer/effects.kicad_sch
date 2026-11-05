@@ -1,0 +1,1283 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "657f1f53-f57b-49de-9749-e2281c1a005f")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 55.88 146.05) (xy 55.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e04ddfe-1e0a-48dc-88aa-c481aaa386be")
+	)
+	(wire
+		(pts
+			(xy 55.88 101.6) (xy 55.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd9d0c8-47d4-46e9-b40b-9ee741c45adb")
+	)
+	(wire
+		(pts
+			(xy 139.7 111.76) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ba224d-9d65-4609-860c-1587b8617b5c")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393c46fe-5a9d-49d8-a87b-d52977509a37")
+	)
+	(wire
+		(pts
+			(xy 113.03 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39492a31-382e-4c8f-ba23-8a298cfc5aea")
+	)
+	(wire
+		(pts
+			(xy 113.03 156.21) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb27b9e-5474-469f-9523-f6630d2f51a9")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45adbef2-6944-4189-a661-6621e3d4a3e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 156.21) (xy 81.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc82f2e-a229-4764-b537-e4591a1cb788")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78de0cc0-80e0-42b3-a191-e368f52b8c31")
+	)
+	(wire
+		(pts
+			(xy 139.7 146.05) (xy 55.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f530251-df8b-44fd-a29a-5c02fe549fe9")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4d1645-8d7f-4419-ba7d-c1cf96bf5df8")
+	)
+	(wire
+		(pts
+			(xy 74.93 111.76) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0513343-3811-4b2c-8b7d-39e75c1e737b")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 100.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a350eec5-75e7-4d1b-8bfe-7d1d1f2dd9c4")
+	)
+	(wire
+		(pts
+			(xy 74.93 67.31) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6722ca-da40-4f75-bdbb-3bc604a290be")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c314c8ee-91ef-4878-a401-f4319777a9cf")
+	)
+	(wire
+		(pts
+			(xy 55.88 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e938882c-794e-4803-b136-ac4b82def0d9")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edff9cff-160a-487f-b6ad-2d9cadebc2ac")
+	)
+	(wire
+		(pts
+			(xy 55.88 111.76) (xy 62.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb411c7-4724-47a2-89e6-ea91e90219b9")
+	)
+	(global_label "BTN_LFO_TARGET"
+		(shape input)
+		(at 62.23 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fa0223f-cd93-4aac-9265-ee49f88b5a24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.5815 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN_LFO_WAVE"
+		(shape input)
+		(at 62.23 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1578d3d-b1fa-4241-85e6-93836f6069fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.5167 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN_FILTER"
+		(shape input)
+		(at 62.23 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5ffc6bf-52ea-405a-b34b-cce66b3e5e12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.601 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "ws2812_in"
+		(shape input)
+		(at 62.23 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "763b127d-2906-4099-9d6f-51c1c583d580")
+	)
+	(hierarchical_label "ws2812_out"
+		(shape input)
+		(at 132.08 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8436cbe-f457-4cb8-b7e3-61eac0a10d14")
+	)
+	(sheet
+		(at 100.33 105.41)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02b70229-9869-4b1b-ad44-65a29694ebbe")
+		(property "Sheetname" "WS28134"
+			(at 100.33 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 94.996 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 113.03 111.76 0)
+			(uuid "c6c7c7db-8134-49c1-8f2c-81b4cec11ecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 100.33 111.76 180)
+			(uuid "f6a88434-d911-405b-81f1-ec36451f3d39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 149.86)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0576b85e-8e46-4b89-ba2d-c6794fc02adf")
+		(property "Sheetname" "WS28138"
+			(at 100.33 149.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 94.996 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 113.03 156.21 0)
+			(uuid "6221d6c5-5ded-409b-a073-a8edcd364dbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 100.33 156.21 180)
+			(uuid "c4ac314e-c0fb-4a51-ae0f-218d4754073a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "103")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 40.64)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06ca293d-a71e-4a6b-9a62-46e0ec207735")
+		(property "Sheetname" "Button2"
+			(at 62.23 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 57.658 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN_Pin" input
+			(at 62.23 46.99 180)
+			(uuid "3450b793-3a0f-4a98-801e-7075af223b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "91")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 85.09)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "09d64964-787a-4391-83c2-7372024db5cb")
+		(property "Sheetname" "Button3"
+			(at 62.23 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 57.658 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN_Pin" input
+			(at 62.23 91.44 180)
+			(uuid "ee25792b-6678-4016-8161-898f26e7e831")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "96")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 149.86)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13c30826-f92c-4a3e-8899-aa244891b20d")
+		(property "Sheetname" "WS28139"
+			(at 119.38 149.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 114.046 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 119.38 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 132.08 156.21 0)
+			(uuid "76013728-3052-43d5-9048-397d651fc8f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 119.38 156.21 180)
+			(uuid "22f774c9-1f29-4411-adf0-a9aacc981e72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "104")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 149.86)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18a04339-2d0e-4d37-b1dc-90260cd74787")
+		(property "Sheetname" "WS28137"
+			(at 81.28 149.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 75.946 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 81.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 93.98 156.21 0)
+			(uuid "2e907da6-4607-4feb-b6e3-fdd107694d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 81.28 156.21 180)
+			(uuid "7e117a94-863b-4e21-ac21-05e2728831fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "102")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 60.96)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "34dfe152-ba20-4da2-8324-960db1ac2058")
+		(property "Sheetname" "WS28129"
+			(at 81.28 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 75.946 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 93.98 67.31 0)
+			(uuid "bb9baa35-092e-4360-820c-ddab9874f3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 81.28 67.31 180)
+			(uuid "03323920-718e-454b-bf5b-a406876716d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "93")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 60.96)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "44fe6533-0b77-498a-b12b-e0752128b726")
+		(property "Sheetname" "WS28130"
+			(at 100.33 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 94.996 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 100.33 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 113.03 67.31 0)
+			(uuid "d38fc56e-2341-4806-bc57-a7f33e0b039e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 100.33 67.31 180)
+			(uuid "c24185c4-6a5e-47ed-8d70-6eb0f0120389")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "94")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 129.54)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "53b63906-f8ca-45b4-ab01-44eb16b9723b")
+		(property "Sheetname" "Button4"
+			(at 62.23 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button.kicad_sch"
+			(at 57.658 143.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN_Pin" input
+			(at 62.23 135.89 180)
+			(uuid "77cc779f-2735-473d-bfc3-53a5b02a6b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "95")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 105.41)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "84c1c86e-e2de-4c99-98a4-8eb15d75236e")
+		(property "Sheetname" "WS28132"
+			(at 62.23 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 56.896 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 62.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 74.93 111.76 0)
+			(uuid "ea76ad3a-2d6c-476d-af4e-82efeff34a82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 62.23 111.76 180)
+			(uuid "7ab6e061-fb46-414f-a233-dd150890c103")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "97")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 60.96)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "85311c13-e84a-4e9a-8d6d-9c2949c51e93")
+		(property "Sheetname" "WS28128"
+			(at 62.23 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 56.896 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 62.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 74.93 67.31 0)
+			(uuid "1bb584e1-deaa-46dd-be5d-85e95d191173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 62.23 67.31 180)
+			(uuid "645432b2-e7a7-4cc1-8b1d-12891ddb1bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "92")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 149.86)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c6b8f7bf-d78e-4333-9e55-82b8635de40e")
+		(property "Sheetname" "WS28136"
+			(at 62.23 149.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 56.896 164.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 62.23 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 74.93 156.21 0)
+			(uuid "56b9c2d5-525f-4408-b694-9ccac0d2bef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 62.23 156.21 180)
+			(uuid "26ffae5a-1e1f-4221-9287-7c2703161a75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "101")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 105.41)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf4b7e42-96c0-4d3f-97e7-82fe9ef96b77")
+		(property "Sheetname" "WS28133"
+			(at 81.28 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 75.946 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 81.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 93.98 111.76 0)
+			(uuid "d1306b9d-80ea-4cbf-b207-2f058a197285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 81.28 111.76 180)
+			(uuid "ba8607be-6c32-464a-b05f-d354f573d757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 105.41)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d89eb734-0120-40f8-8081-2fbfb4718bb8")
+		(property "Sheetname" "WS28135"
+			(at 119.38 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 114.046 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 119.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 132.08 111.76 0)
+			(uuid "ae0a20b3-3d87-4447-a122-3fe028408bd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 119.38 111.76 180)
+			(uuid "571f8743-1a12-40de-b60a-101d115fe097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/4027f8f7-fbb2-4624-aa6f-0b6adcb8c2e1"
+					(page "100")
+				)
+			)
+		)
+	)
+)
