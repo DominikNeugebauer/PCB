@@ -1014,6 +1014,318 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW90_OS102011MA1QN1:OS102011MA1QN1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at -4.445 -3.302 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OS102011MA1QN1"
+				(at 6.35 -7.62 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "OS102011MA1QN1:SWITCH_11MA1QN1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch Slide ON ON SPDT Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "C & K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/OS102011MA1QN1/C/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/OS102011MA1QN1/C/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "OS102011MA1QN1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MFR_NAME" "C&K Components"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "OS102011MA1QN1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "OS102011MA1QN1_0_0"
+				(circle
+					(center -2.54 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -0.635 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TYPE-C-31-M-12:TYPE-C-31-M-12"
 			(pin_names
 				(offset 1.016)
@@ -1917,6 +2229,16 @@
 		)
 		(uuid "54eddbdf-d154-4e3f-a872-e6305227df7e")
 	)
+	(text "ON/OFF"
+		(exclude_from_sim no)
+		(at 224.028 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6323ccde-6159-4983-bbe5-f5502575c445")
+	)
 	(text "Datasheet:\n30mA -> 90mV dropout"
 		(exclude_from_sim no)
 		(at 89.916 178.816 0)
@@ -1948,12 +2270,6 @@
 		(uuid "f266587c-37bb-404f-8f19-f81bedf88d41")
 	)
 	(junction
-		(at 176.53 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0867688d-b49d-42b9-bf64-29485a30d79b")
-	)
-	(junction
 		(at 182.88 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1978,12 +2294,6 @@
 		(uuid "2156ede6-5491-4d8f-b319-5a4707045bc2")
 	)
 	(junction
-		(at 59.69 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e944668-4356-48f1-b5d7-7ab0b0c392c2")
-	)
-	(junction
 		(at 152.4 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1994,12 +2304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "319fcab8-fb2a-4316-802e-18e5b9c280f9")
-	)
-	(junction
-		(at 59.69 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3819e202-6ead-4361-9e67-979feedfa829")
 	)
 	(junction
 		(at 110.49 58.42)
@@ -2193,16 +2497,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 104.14) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247509b7-45a0-4e45-8bfe-27dbec9f172d")
-	)
-	(wire
-		(pts
 			(xy 114.3 50.8) (xy 114.3 55.88)
 		)
 		(stroke
@@ -2253,16 +2547,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 59.69 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332be990-9ab9-468a-bc42-23869ee3d017")
-	)
-	(wire
-		(pts
 			(xy 120.65 153.67) (xy 120.65 157.48)
 		)
 		(stroke
@@ -2290,16 +2574,6 @@
 			(type default)
 		)
 		(uuid "3df1c7b2-4aca-45ed-acd7-ee8e40178804")
-	)
-	(wire
-		(pts
-			(xy 72.39 163.83) (xy 59.69 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb598ad-8d2a-4cbb-852c-410590b9250a")
 	)
 	(wire
 		(pts
@@ -2373,16 +2647,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 130.81) (xy 176.53 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc4cc31-ab07-45e3-bf54-6a873745f4df")
-	)
-	(wire
-		(pts
 			(xy 120.65 104.14) (xy 120.65 107.95)
 		)
 		(stroke
@@ -2413,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 182.88 120.65)
+			(xy 172.72 120.65) (xy 182.88 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 153.67) (xy 59.69 153.67)
+			(xy 55.88 153.67) (xy 66.04 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2503,16 +2767,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 163.83) (xy 59.69 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7005a115-110c-4f87-be88-7f009ec6dd71")
-	)
-	(wire
-		(pts
 			(xy 128.27 104.14) (xy 120.65 104.14)
 		)
 		(stroke
@@ -2523,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 59.69 104.14)
+			(xy 55.88 104.14) (xy 66.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2613,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 114.3) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb13095-d666-4d69-a0fb-ff6aed6996fc")
+	)
+	(wire
+		(pts
 			(xy 66.04 153.67) (xy 66.04 167.64)
 		)
 		(stroke
@@ -2653,6 +2917,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 130.81) (xy 189.23 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a41f9f4-41d4-4690-96db-44d4ed62154c")
+	)
+	(wire
+		(pts
 			(xy 115.57 71.12) (xy 115.57 85.09)
 		)
 		(stroke
@@ -2660,16 +2934,6 @@
 			(type default)
 		)
 		(uuid "9b2bc6fa-47ab-4ed6-898f-a713f632b4f6")
-	)
-	(wire
-		(pts
-			(xy 59.69 153.67) (xy 66.04 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e7c1408-5564-410a-87c2-7d265854c18d")
 	)
 	(wire
 		(pts
@@ -2803,16 +3067,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 130.81) (xy 176.53 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39978b4-38f4-4587-82cf-bbd8a8f520ab")
-	)
-	(wire
-		(pts
 			(xy 224.79 135.89) (xy 237.49 135.89)
 		)
 		(stroke
@@ -2823,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 163.83) (xy 72.39 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d706e7b1-7471-4c8f-9187-aa05a7098aaf")
+	)
+	(wire
+		(pts
 			(xy 114.3 55.88) (xy 135.89 55.88)
 		)
 		(stroke
@@ -2830,26 +3094,6 @@
 			(type default)
 		)
 		(uuid "d9d43c98-4d69-4bde-952e-a511d1ea256e")
-	)
-	(wire
-		(pts
-			(xy 59.69 114.3) (xy 59.69 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da39878d-abb0-4e7a-90a1-89dae6f040c2")
-	)
-	(wire
-		(pts
-			(xy 172.72 120.65) (xy 176.53 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd36c285-7f8e-49b0-8cae-ebd2f05fa029")
 	)
 	(wire
 		(pts
@@ -2995,6 +3239,30 @@
 			)
 		)
 	)
+	(global_label "LDO_EN"
+		(shape input)
+		(at 228.6 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b43254c-2ead-4ab6-ad30-cc9845b0e2a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.6609 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OTG_FS_DM"
 		(shape input)
 		(at 168.91 58.42 0)
@@ -3091,6 +3359,30 @@
 			)
 		)
 	)
+	(global_label "LDO_EN"
+		(shape input)
+		(at 172.72 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dd7f0b8-3c8b-4db2-abcd-b387b7699451")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.6591 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCC_2V5"
 		(shape input)
 		(at 245.11 120.65 0)
@@ -3139,6 +3431,54 @@
 			)
 		)
 	)
+	(global_label "LDO_EN"
+		(shape input)
+		(at 55.88 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91d6bc62-3963-482b-b4a7-b3d1eeee4ab6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.8191 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDO_EN"
+		(shape input)
+		(at 55.88 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e9a73f1-15c5-4a01-8859-91d155a694d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.8191 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCC_3V3_LED"
 		(shape input)
 		(at 128.27 153.67 0)
@@ -3176,6 +3516,30 @@
 		(uuid "facdf094-8428-4f98-adf3-f100f5e6c6f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.2986 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 218.44 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff8353c6-bf55-4a1a-b02b-4662fede7cfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.8586 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,6 +5655,210 @@
 		)
 	)
 	(symbol
+		(lib_id "SW90_OS102011MA1QN1:OS102011MA1QN1")
+		(at 223.52 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2b32905-d0bc-4c9f-a420-3bcfee3653b1")
+		(property "Reference" "SW33"
+			(at 224.79 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OS102011MA1QN1"
+			(at 224.79 52.324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Valve:OS102011MA1QN1"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch Slide ON ON SPDT Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "C & K"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2024 Ultra Librarian. All rights reserved."
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/OS102011MA1QN1/C/view-part/?ref=eda"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OS102011MA1QN1/C/view-part/?ref=snap"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "OS102011MA1QN1"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFR_NAME" "C&K Components"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "OS102011MA1QN1"
+			(at 223.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9ef2d810-6638-4bd3-8ad0-82b9eb1cc121")
+		)
+		(pin "3"
+			(uuid "a607362f-882a-4651-9954-fd997b71aa9c")
+		)
+		(pin "1"
+			(uuid "6c7a417d-16bb-4970-8f06-0a58957cd7df")
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/1a467fc6-dc01-4686-8ff5-5cdd5d2a2b28"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TYPE-C-31-M-12:TYPE-C-31-M-12")
 		(at 87.63 60.96 0)
 		(unit 1)
@@ -5834,7 +6402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 113.03 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5979,6 +6547,85 @@
 			(project "Synthesizer"
 				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/1a467fc6-dc01-4686-8ff5-5cdd5d2a2b28"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe82a022-d34a-4a2d-bbd8-e59f9291b130")
+		(property "Reference" "#PWR0221"
+			(at 212.09 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 63.5001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68ee8430-2363-465f-9fa7-250d09dee824")
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/1a467fc6-dc01-4686-8ff5-5cdd5d2a2b28"
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
