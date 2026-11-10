@@ -1321,7 +1321,7 @@
 		(uuid "f571aa24-b2f4-495d-a496-a682dd9bf5ff")
 	)
 	(no_connect
-		(at 191.77 137.16)
+		(at 203.2 137.16)
 		(uuid "48cfa705-66e6-43b3-81e7-18610503c903")
 	)
 	(wire
@@ -1406,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 118.11) (xy 195.58 127)
+			(xy 207.01 118.11) (xy 207.01 127)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 137.16) (xy 191.77 137.16)
+			(xy 200.66 137.16) (xy 203.2 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 105.41)
+			(xy 182.88 118.11) (xy 182.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 118.11) (xy 195.58 118.11)
+			(xy 200.66 118.11) (xy 207.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 127) (xy 171.45 137.16)
+			(xy 182.88 127) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 34.29) (xy 151.13 34.29)
+			(xy 142.24 34.29) (xy 158.75 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 171.45 118.11)
+			(xy 187.96 118.11) (xy 182.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 105.41) (xy 133.35 105.41)
+			(xy 182.88 105.41) (xy 133.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1676,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 137.16) (xy 176.53 137.16)
+			(xy 182.88 137.16) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 127) (xy 171.45 127)
+			(xy 207.01 127) (xy 182.88 127)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +1966,7 @@
 	)
 	(global_label "VCC_3V3"
 		(shape input)
-		(at 151.13 34.29 0)
+		(at 158.75 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1976,7 +1976,7 @@
 		)
 		(uuid "0c08fea6-f46b-40de-b0dd-6fad79f794ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.219 34.29 0)
+			(at 169.839 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,6 +2132,30 @@
 			)
 		)
 	)
+	(global_label "VCC_3V3_LED0"
+		(shape input)
+		(at 187.96 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a643a1c-3e22-49fd-9683-42e0462529bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2468 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 208.28 92.71 180)
@@ -2145,6 +2169,30 @@
 		(uuid "9bcef23f-e5ac-45a0-bf94-dbbcc0c77315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.4653 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCC_3V3_LED0"
+		(shape input)
+		(at 187.96 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf501185-9de3-462a-9a4c-96734f3cf6b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.2468 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:EC11E18244A5_ALPS"
 			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3285,7 +3333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AT24C256C-SSHL-T:SOIC127P600X175-8N"
+		(property "Footprint" "Module:AT24C256C-SSHL-T"
 			(at 207.01 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3540,7 +3588,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 111.76)
+		(at 187.96 111.76)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3555,7 +3603,7 @@
 		)
 		(uuid "093f8ed1-3ba1-4e5e-bf3d-8ed676717bd9")
 		(property "Sheetname" "WS28136"
-			(at 176.53 111.0484 0)
+			(at 187.96 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3566,7 +3614,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 171.196 126.238 0)
+			(at 182.626 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3577,7 +3625,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 176.53 111.76 0)
+			(at 187.96 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3636,7 @@
 			)
 		)
 		(pin "out" input
-			(at 189.23 118.11 0)
+			(at 200.66 118.11 0)
 			(uuid "a0457887-bb19-46a4-bfcd-bdc461b7bfe0")
 			(effects
 				(font
@@ -3598,8 +3646,18 @@
 			)
 		)
 		(pin "IN" input
-			(at 176.53 118.11 180)
+			(at 187.96 118.11 180)
 			(uuid "5c7ca53f-0feb-4f6a-a380-c02cc6a5ae87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 187.96 120.65 180)
+			(uuid "5a0c76db-10ac-43f7-a749-c290d071fc25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3982,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 130.81)
+		(at 187.96 130.81)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3939,7 +3997,7 @@
 		)
 		(uuid "fe34350f-4eb1-4833-9f5f-3fe92fe56110")
 		(property "Sheetname" "WS28135"
-			(at 176.53 130.0984 0)
+			(at 187.96 130.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +4008,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 171.196 145.288 0)
+			(at 182.626 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3961,7 +4019,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 176.53 130.81 0)
+			(at 187.96 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +4030,7 @@
 			)
 		)
 		(pin "out" input
-			(at 189.23 137.16 0)
+			(at 200.66 137.16 0)
 			(uuid "bef6dfa2-0d24-42b2-b57e-3a60e4982453")
 			(effects
 				(font
@@ -3982,8 +4040,18 @@
 			)
 		)
 		(pin "IN" input
-			(at 176.53 137.16 180)
+			(at 187.96 137.16 180)
 			(uuid "1a800d03-e610-494b-9612-01fb926decf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 187.96 139.7 180)
+			(uuid "f9e04ae6-6689-4137-af1e-28796e969855")
 			(effects
 				(font
 					(size 1.27 1.27)

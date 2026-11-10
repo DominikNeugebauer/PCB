@@ -244,16 +244,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Evtl ein Auscchalter???"
-		(exclude_from_sim no)
-		(at 101.346 119.126 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c29a3e2-b61b-4674-8cad-a5825c9b4b5c")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 48.26 106.68 0)

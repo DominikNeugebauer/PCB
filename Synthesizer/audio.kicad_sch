@@ -3685,7 +3685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NMJ6HCD2:NEUTRIK_NMJ6HCD2"
+		(property "Footprint" "Connector:AUXBIG_NEUTRIK_NMJ6HCD2"
 			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5211,7 +5211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CS43L22-CNZ:QFN50P600X600X100-41N"
+		(property "Footprint" "Audio_Module:CS43L22"
 			(at 135.89 90.17 0)
 			(hide yes)
 			(show_name no)

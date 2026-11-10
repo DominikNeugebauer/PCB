@@ -2343,7 +2343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD74HC4051E:DIP794W45P254L1969H508Q16"
+		(property "Footprint" "Module:CD74HC4051E"
 			(at 86.36 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2551,7 +2551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD74HC4051E:DIP794W45P254L1969H508Q16"
+		(property "Footprint" "Module:CD74HC4051E"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)

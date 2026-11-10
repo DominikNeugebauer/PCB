@@ -591,30 +591,6 @@
 		)
 		(uuid "fde2fbb6-5a6b-458a-9124-e27a0d20cd9a")
 	)
-	(global_label "POT0"
-		(shape input)
-		(at 7.3024 1.3498 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "444867d8-9b3d-4818-b734-66dc2eb4d632")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.4604 1.3498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "VCC_3V3"
 		(shape input)
 		(at 125.73 93.98 180)
@@ -701,7 +677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:Potentiometer_Tayda_RV16106NO_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_RV16106NO_A-5419_Vertical"
 			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)

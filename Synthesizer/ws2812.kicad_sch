@@ -562,30 +562,6 @@
 		)
 		(uuid "ad5a3571-8371-4de5-a14e-a6c0a0fb7b35")
 	)
-	(global_label "VCC_3V3_LED"
-		(shape input)
-		(at 101.6 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6eb8c8e9-552f-4121-8438-33a292773dd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.0963 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(hierarchical_label "out"
 		(shape input)
 		(at 127 99.06 180)
@@ -607,6 +583,17 @@
 			(justify left)
 		)
 		(uuid "911112ab-290a-40cd-9458-3f86dca0128e")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 101.6 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9acb286d-9682-41b8-8fe0-b7cf9ffe9292")
 	)
 	(symbol
 		(lib_id "WS2812_4Pin:WS2812B")

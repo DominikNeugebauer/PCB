@@ -1897,6 +1897,12 @@
 		)
 	)
 	(junction
+		(at 196.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0234c02e-02a7-4162-a813-bf81eb8dd66c")
+	)
+	(junction
 		(at 130.81 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1945,10 +1951,6 @@
 		(uuid "b7ff1d33-0e43-4563-bb8b-7893aa46006a")
 	)
 	(no_connect
-		(at 172.72 100.33)
-		(uuid "b88b6bfe-6f97-45f6-aadd-bfe8d13d4693")
-	)
-	(no_connect
 		(at 107.95 106.68)
 		(uuid "d16c9bc8-6f51-4354-9c53-25f33975313c")
 	)
@@ -1984,6 +1986,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 100.33) (xy 172.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d01d23d-2926-4e64-bbdb-6f33fe996b55")
+	)
+	(wire
+		(pts
 			(xy 142.24 100.33) (xy 142.24 107.95)
 		)
 		(stroke
@@ -1991,6 +2003,16 @@
 			(type default)
 		)
 		(uuid "1e1fe8f6-3167-4578-8a54-fbd620e6a769")
+	)
+	(wire
+		(pts
+			(xy 179.07 120.65) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bc2c10-a4de-4ea9-9f33-9c2735c5acc3")
 	)
 	(wire
 		(pts
@@ -2114,6 +2136,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 110.49) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbb2949-f4d1-44ac-91f0-4128a4105656")
+	)
+	(wire
+		(pts
+			(xy 196.85 120.65) (xy 196.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8885105-989a-4ff3-8e86-07c2ec6ed13e")
+	)
+	(wire
+		(pts
 			(xy 130.81 100.33) (xy 142.24 100.33)
 		)
 		(stroke
@@ -2144,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 107.95) (xy 196.85 114.3)
+			(xy 196.85 107.95) (xy 196.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2211,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "ea0d1735-d307-4eba-b193-46756e12413a")
+	)
+	(wire
+		(pts
+			(xy 179.07 118.11) (xy 179.07 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa7f83b-9972-4ee1-92ea-6e3a678173d3")
 	)
 	(global_label "USART2_RX"
 		(shape input)
@@ -2292,7 +2344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDS-50J:CUI_SDS-50J"
+		(property "Footprint" "Connector:MIDI_CUI_SDS-50J"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2490,8 +2542,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 114.3 0)
+		(lib_id "Device:R")
+		(at 179.07 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2500,30 +2552,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "902ba5dd-13d6-45b0-b320-6a3d69f4d29e")
-		(property "Reference" "#PWR026"
-			(at 196.85 120.65 0)
-			(hide yes)
+		(uuid "7c19d7fc-952c-481b-96ed-532e824b89fd")
+		(property "Reference" "R4"
+			(at 181.61 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 196.85 119.38 0)
+		(property "Value" "4k7"
+			(at 181.61 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 114.3 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 177.292 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2534,7 +2587,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 114.3 0)
+			(at 179.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77660512-d68f-40ca-83e1-20fa47032f66")
+		)
+		(pin "1"
+			(uuid "98c9d1ca-6161-47d5-abc3-52b82a8e37df")
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/80d3ae35-348a-4a74-92f5-e0ef23d70556"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "902ba5dd-13d6-45b0-b320-6a3d69f4d29e")
+		(property "Reference" "#PWR026"
+			(at 196.85 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 114.3 0)
+			(at 196.85 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "6N138:DIP762W50P254L1018H450Q8"
+		(property "Footprint" "OptoDevice:6N138"
 			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)

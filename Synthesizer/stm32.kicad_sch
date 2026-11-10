@@ -4201,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e03fc0-f333-4799-b6c9-34d65262ffbc")
+	)
+	(wire
+		(pts
 			(xy 210.82 53.34) (xy 210.82 57.15)
 		)
 		(stroke
@@ -4421,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 83.82 114.3)
+			(xy 26.67 114.3) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5593,7 +5603,7 @@
 	)
 	(global_label "WS2812"
 		(shape input)
-		(at 40.64 114.3 180)
+		(at 26.67 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5603,7 +5613,7 @@
 		)
 		(uuid "5af21cf7-14f9-47b7-8337-aab54e54b0b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1559 114.3 0)
+			(at 16.1859 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,30 +6513,6 @@
 			)
 		)
 	)
-	(global_label "VCC_3V3_LED"
-		(shape input)
-		(at 50.8 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa6683f1-b6fd-42c7-8335-6c73a57e3f4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3037 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2S3_MCK"
 		(shape input)
 		(at 83.82 162.56 180)
@@ -6612,6 +6598,30 @@
 		(uuid "b0eeda9b-5b8d-4630-a5ad-a759d51d5814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.5347 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC_3V3_LED0"
+		(shape input)
+		(at 50.8 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b24cc858-07c5-477a-98e4-13534ae9dd6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.5132 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7408,7 +7418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
 			(at 43.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7757,6 +7767,85 @@
 			(project "Synthesizer"
 				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/8e685e24-35ad-4447-867c-32a9c9a1eb39"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27ba2eb8-d706-4918-879a-1d3208155c54")
+		(property "Reference" "R85"
+			(at 34.29 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 34.29 108.966 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e757bfc-37de-470d-ad4f-26dddc9d41d4")
+		)
+		(pin "1"
+			(uuid "ad5fc516-4d22-4adb-bbd9-0826e556140e")
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/8e685e24-35ad-4447-867c-32a9c9a1eb39"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32H743VIT6TR:QFP50P1600X1600X160-100N"
+		(property "Footprint" "Module:STM32H743VIT6TR"
 			(at 109.22 106.68 0)
 			(hide yes)
 			(show_name no)

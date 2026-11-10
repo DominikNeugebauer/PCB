@@ -1839,7 +1839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:PTS810_SJM_250_SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_PTS810_SJM_250_SMTR_LFS"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:PTS810_SJM_250_SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_PTS810_SJM_250_SMTR_LFS"
 			(at 93.98 107.95 0)
 			(hide yes)
 			(show_name no)
