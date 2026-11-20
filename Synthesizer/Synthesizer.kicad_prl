@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -44,7 +44,6 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
-      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
@@ -122,7 +121,6 @@
   },
   "schematic": {
     "hierarchy_collapsed": [
-      "/a06352f5-a51b-4766-9543-f7cb94d1243c/",
       "/bcc47bc6-c6db-4464-9c26-bd05239cedb1/a360cd05-5e50-44b3-9f75-1b0dde16bb0c/"
     ],
     "selection_filter": {
