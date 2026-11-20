@@ -1201,30 +1201,6 @@
 			)
 		)
 	)
-	(global_label "POT15"
-		(shape input)
-		(at 185.42 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c623c05-67da-47a1-aea4-36a2609c79e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.3923 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "AMUX1S1"
 		(shape input)
 		(at 149.86 53.34 180)
@@ -1238,6 +1214,30 @@
 		(uuid "35406b73-78fd-43d2-af5f-8103bf4d62cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.1663 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "POT15"
+		(shape input)
+		(at 137.16 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "369cb209-8153-409d-9fcd-a67b7e59ba6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.1877 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1382,30 +1382,6 @@
 		(uuid "481ee020-fe7c-42c1-8e65-4dfdfd1702ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.5877 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "POT15"
-		(shape input)
-		(at 137.16 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "569e8deb-4d1e-422e-9d70-abc61c5ddb05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1877 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,6 +1550,30 @@
 		(uuid "73360afd-be4c-4099-852f-cadcd3ed19ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.3923 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "POT15"
+		(shape input)
+		(at 185.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7df65124-0f4f-4a34-9d5c-a974c10117be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3923 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,6 +3163,61 @@
 		)
 	)
 	(sheet
+		(at 137.16 148.59)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "47ad37b7-12cd-4e08-a18a-d68d222867af")
+		(property "Sheetname" "Poti15"
+			(at 137.16 147.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "single_poti.kicad_sch"
+			(at 130.81 162.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Pot" input
+			(at 137.16 154.94 180)
+			(uuid "350912c0-cdcb-4ec9-9b45-9c2b90aac5ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/a06352f5-a51b-4766-9543-f7cb94d1243c"
+					(page "109")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 60.96 110.49)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -3543,61 +3598,6 @@
 			(project "Synthesizer"
 				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/a06352f5-a51b-4766-9543-f7cb94d1243c"
 					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 137.16 148.59)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d4a1fd7e-d082-4091-97fa-74d4a32c9f02")
-		(property "Sheetname" "Poti15"
-			(at 137.16 147.8784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "single_poti.kicad_sch"
-			(at 130.81 162.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Pot" input
-			(at 137.16 154.94 180)
-			(uuid "222eab9a-414c-4ac6-98b0-b4bd84ecaf05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Synthesizer"
-				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/a06352f5-a51b-4766-9543-f7cb94d1243c"
-					(page "24")
 				)
 			)
 		)

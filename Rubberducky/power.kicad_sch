@@ -1169,6 +1169,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB_DN"
+		(exclude_from_sim no)
+		(at 136.144 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a985b0c-e7aa-4412-8396-2583372df323")
+	)
+	(text "USB_DP"
+		(exclude_from_sim no)
+		(at 136.144 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "527415e8-c655-4134-8c9c-c10b70c81d7c")
+	)
 	(text "Datasheet:\n30mA -> 90mV dropout"
 		(exclude_from_sim no)
 		(at 187.706 112.776 0)

@@ -36,6 +36,12 @@
 		(uuid "4a0afcc7-8876-49af-81b9-2ae99a70d987")
 	)
 	(junction
+		(at 163.83 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e7f0d1-5707-4c29-9a30-abce4ef9ae95")
+	)
+	(junction
 		(at 125.73 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -150,6 +156,16 @@
 			(type default)
 		)
 		(uuid "12ca34cb-1a55-44f3-a58e-636fd63006f8")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e1b912-479a-4331-8224-99d8b0e8dd38")
 	)
 	(wire
 		(pts
@@ -563,6 +579,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 100.33) (xy 187.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c85e62-d0b4-45ec-bb68-ecc58f961755")
+	)
+	(wire
+		(pts
 			(xy 102.87 55.88) (xy 110.49 55.88)
 		)
 		(stroke
@@ -710,6 +736,16 @@
 			(type default)
 		)
 		(uuid "db0c6d87-f1ff-4d5c-b68a-6eee077e001d")
+	)
+	(wire
+		(pts
+			(xy 163.83 104.14) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc70bb29-8196-4e6c-9fa0-00d7bbb7a264")
 	)
 	(wire
 		(pts
@@ -1378,14 +1414,14 @@
 	)
 	(hierarchical_label "ws2812_out"
 		(shape input)
-		(at 180.34 97.79 0)
+		(at 200.66 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "86ed1d5f-3031-4ac4-b028-79919df9b6cf")
+		(uuid "cc29fbd6-1d72-4aac-9ea6-283ff08832d0")
 	)
 	(sheet
 		(at 157.48 127)
@@ -3710,6 +3746,93 @@
 			(project "Synthesizer"
 				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/1c848d17-043e-462c-8491-1060e3611cf1"
 					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 91.44)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "de70b91c-9c39-4556-b8e6-60c91c8c8e6f")
+		(property "Sheetname" "WS28144"
+			(at 187.96 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 181.61 104.648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 187.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "out" input
+			(at 200.66 97.79 0)
+			(uuid "c308f2cb-9472-43c9-a3df-52f8a343a96c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN" input
+			(at 187.96 97.79 180)
+			(uuid "207649f6-99bf-4e1a-bfb3-7f493c358875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 187.96 100.33 180)
+			(uuid "47addfa9-50d1-4707-998a-1627eb51bfe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Synthesizer"
+				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1/1c848d17-043e-462c-8491-1060e3611cf1"
+					(page "24")
 				)
 			)
 		)

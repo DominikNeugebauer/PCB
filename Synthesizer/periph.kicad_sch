@@ -1321,8 +1321,8 @@
 		(uuid "f571aa24-b2f4-495d-a496-a682dd9bf5ff")
 	)
 	(no_connect
-		(at 203.2 137.16)
-		(uuid "48cfa705-66e6-43b3-81e7-18610503c903")
+		(at 137.16 105.41)
+		(uuid "070eb3b0-7153-4aff-ad35-e835481c9b6f")
 	)
 	(wire
 		(pts
@@ -1406,16 +1406,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 118.11) (xy 207.01 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188fdc78-8d7a-44f9-b420-6e3c9ead3798")
-	)
-	(wire
-		(pts
 			(xy 142.24 71.12) (xy 142.24 58.42)
 		)
 		(stroke
@@ -1446,6 +1436,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 105.41) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3105b445-8eae-4e8f-95d7-4715375cac50")
+	)
+	(wire
+		(pts
 			(xy 149.86 53.34) (xy 142.24 53.34)
 		)
 		(stroke
@@ -1463,16 +1463,6 @@
 			(type default)
 		)
 		(uuid "3b89e763-cba2-4995-ac01-d509c433bcf6")
-	)
-	(wire
-		(pts
-			(xy 200.66 137.16) (xy 203.2 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1b9404-07ce-4669-9ac1-f880d1e61941")
 	)
 	(wire
 		(pts
@@ -1516,16 +1506,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50dabef4-f2f8-4b0b-813e-25117d05ec16")
-	)
-	(wire
-		(pts
 			(xy 83.82 53.34) (xy 90.17 53.34)
 		)
 		(stroke
@@ -1533,16 +1513,6 @@
 			(type default)
 		)
 		(uuid "521c9f5c-66d3-4f38-ad09-f7b02972c263")
-	)
-	(wire
-		(pts
-			(xy 200.66 118.11) (xy 207.01 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58cf3f60-6734-4e6b-8be9-c790ccdd43d9")
 	)
 	(wire
 		(pts
@@ -1563,16 +1533,6 @@
 			(type default)
 		)
 		(uuid "735fd336-6f36-49b2-8030-a615a17861d2")
-	)
-	(wire
-		(pts
-			(xy 182.88 127) (xy 182.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7593c196-95cd-4517-849c-1b6598e14fcd")
 	)
 	(wire
 		(pts
@@ -1626,16 +1586,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 118.11) (xy 182.88 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5e04c2-1c6b-4d8b-af02-9e227d5d464d")
-	)
-	(wire
-		(pts
 			(xy 83.82 67.31) (xy 83.82 71.12)
 		)
 		(stroke
@@ -1643,16 +1593,6 @@
 			(type default)
 		)
 		(uuid "7d88ef38-4916-44c8-9ec5-c5b4d927891f")
-	)
-	(wire
-		(pts
-			(xy 182.88 105.41) (xy 133.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8990ee5a-fc71-4b1d-be97-0f42fe6e62b0")
 	)
 	(wire
 		(pts
@@ -1673,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "8e73ba13-c657-4845-8060-bd318622a8c5")
-	)
-	(wire
-		(pts
-			(xy 182.88 137.16) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9348e6dc-b52e-4462-84e1-2a43c2f4ef04")
 	)
 	(wire
 		(pts
@@ -1823,16 +1753,6 @@
 			(type default)
 		)
 		(uuid "c885c23a-192d-48fc-a0ac-3b1aafa296a8")
-	)
-	(wire
-		(pts
-			(xy 207.01 127) (xy 182.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d13140e2-1d97-4589-a0c5-3dbad7ecbf68")
 	)
 	(wire
 		(pts
@@ -2132,30 +2052,6 @@
 			)
 		)
 	)
-	(global_label "VCC_3V3_LED0"
-		(shape input)
-		(at 187.96 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a643a1c-3e22-49fd-9683-42e0462529bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.2468 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 208.28 92.71 180)
@@ -2169,30 +2065,6 @@
 		(uuid "9bcef23f-e5ac-45a0-bf94-dbbcc0c77315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.4653 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VCC_3V3_LED0"
-		(shape input)
-		(at 187.96 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf501185-9de3-462a-9a4c-96734f3cf6b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.2468 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,92 +3460,6 @@
 		)
 	)
 	(sheet
-		(at 187.96 111.76)
-		(size 12.7 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "093f8ed1-3ba1-4e5e-bf3d-8ed676717bd9")
-		(property "Sheetname" "WS28136"
-			(at 187.96 111.0484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 182.626 126.238 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 187.96 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "out" input
-			(at 200.66 118.11 0)
-			(uuid "a0457887-bb19-46a4-bfcd-bdc461b7bfe0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 187.96 118.11 180)
-			(uuid "5c7ca53f-0feb-4f6a-a380-c02cc6a5ae87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD" input
-			(at 187.96 120.65 180)
-			(uuid "5a0c76db-10ac-43f7-a749-c290d071fc25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Synthesizer"
-				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1"
-					(page "108")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 154.94 111.76)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
@@ -3977,92 +3763,6 @@
 			(project "Synthesizer"
 				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1"
 					(page "105")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 130.81)
-		(size 12.7 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "fe34350f-4eb1-4833-9f5f-3fe92fe56110")
-		(property "Sheetname" "WS28135"
-			(at 187.96 130.0984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 182.626 145.288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 187.96 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "out" input
-			(at 200.66 137.16 0)
-			(uuid "bef6dfa2-0d24-42b2-b57e-3a60e4982453")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 187.96 137.16 180)
-			(uuid "1a800d03-e610-494b-9612-01fb926decf1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD" input
-			(at 187.96 139.7 180)
-			(uuid "f9e04ae6-6689-4137-af1e-28796e969855")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Synthesizer"
-				(path "/8ebae1c8-317e-446a-8fa2-c7bda7f97182/bcc47bc6-c6db-4464-9c26-bd05239cedb1"
-					(page "107")
 				)
 			)
 		)

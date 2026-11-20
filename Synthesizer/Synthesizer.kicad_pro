@@ -528,7 +528,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerber",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -653,7 +653,7 @@
         "uuid": "8ebae1c8-317e-446a-8fa2-c7bda7f97182"
       }
     ],
-    "used_designators": "#PWR22-23,#PWR210-226,C40-41,C137-146,D6,DISPLAY1,H1-4,J3-4,R4,R81-86,SW33,U7,U59-61",
+    "used_designators": "#PWR22-23,#PWR46,#PWR210-228,C40-41,C55,C137-147,D6,DISPLAY1,H1-4,J3-5,R4,R81-86,RV16,SW33,U7,U59-62",
     "variants": []
   },
   "sheets": [
@@ -750,8 +750,8 @@
       "Poti14"
     ],
     [
-      "d4a1fd7e-d082-4091-97fa-74d4a32c9f02",
-      "Poti15"
+      "de70b91c-9c39-4556-b8e6-60c91c8c8e6f",
+      "WS28144"
     ],
     [
       "a360cd05-5e50-44b3-9f75-1b0dde16bb0c",
@@ -1082,12 +1082,8 @@
       "Button3"
     ],
     [
-      "fe34350f-4eb1-4833-9f5f-3fe92fe56110",
-      "WS28135"
-    ],
-    [
-      "093f8ed1-3ba1-4e5e-bf3d-8ed676717bd9",
-      "WS28136"
+      "47ad37b7-12cd-4e08-a18a-d68d222867af",
+      "Poti15"
     ]
   ],
   "text_variables": {},
