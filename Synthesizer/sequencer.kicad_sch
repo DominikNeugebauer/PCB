@@ -6,10 +6,10 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 109.22 100.33)
+		(at 149.86 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "058e61ee-d6f7-487f-8a74-aae63878d581")
+		(uuid "074c1be8-c557-4757-916b-2cb6af06cfb3")
 	)
 	(junction
 		(at 144.78 40.64)
@@ -18,16 +18,22 @@
 		(uuid "1f410983-9a73-493d-b210-e0256f8b7dd1")
 	)
 	(junction
-		(at 143.51 83.82)
+		(at 144.78 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35e58f24-c3c3-4368-b715-b9b9ab5fd36e")
 	)
 	(junction
-		(at 144.78 104.14)
+		(at 146.05 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a04c09e-b340-4f79-b498-dd33d8598a0b")
+	)
+	(junction
+		(at 127 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a6c067-3901-4e2b-9ccd-6b4d7d3e0dd7")
 	)
 	(junction
 		(at 144.78 62.23)
@@ -36,28 +42,16 @@
 		(uuid "4a0afcc7-8876-49af-81b9-2ae99a70d987")
 	)
 	(junction
-		(at 163.83 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57e7f0d1-5707-4c29-9a30-abce4ef9ae95")
-	)
-	(junction
 		(at 125.73 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74543b14-1a28-4daf-bc67-bac8da4600fa")
 	)
 	(junction
-		(at 125.73 83.82)
+		(at 109.22 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d5f5882-75aa-4e90-bb5e-a235b47e1e44")
-	)
-	(junction
-		(at 109.22 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "865d889c-18a7-46fd-bfed-b0f699fae182")
+		(uuid "79f0e33c-7696-4fe6-9374-5214cbfbfc1e")
 	)
 	(junction
 		(at 109.22 58.42)
@@ -72,10 +66,10 @@
 		(uuid "9ed749a1-a617-48dd-820a-06c48e423e4c")
 	)
 	(junction
-		(at 180.34 77.47)
+		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af17bc95-50a7-4039-b76d-fb09d0348259")
+		(uuid "c2f4155c-c142-4973-9e27-a9987e511e41")
 	)
 	(junction
 		(at 109.22 62.23)
@@ -84,16 +78,22 @@
 		(uuid "c8346dbd-9e08-4ab3-95b0-49dcd90d8497")
 	)
 	(junction
-		(at 109.22 80.01)
+		(at 163.83 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb273904-6684-4f06-bf1d-d9e46c42dd6d")
+		(uuid "d287f53a-ef6d-4013-ad46-a3cd1035b287")
 	)
 	(junction
-		(at 125.73 104.14)
+		(at 109.22 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf76f9f6-394d-4299-a067-c992b1f5cdbb")
+		(uuid "d354ce10-f37a-4f05-9e25-169f3cd64a29")
+	)
+	(junction
+		(at 109.22 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb5ea58-2926-48d5-98a6-8a167926cb34")
 	)
 	(junction
 		(at 109.22 36.83)
@@ -109,37 +109,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 167.64 97.79)
+			(xy 208.28 55.88) (xy 208.28 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05269998-56e9-431a-a89d-21866cbcc33a")
+		(uuid "00e73b73-ca65-430e-9056-35da0c9b91d0")
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 167.64 100.33)
+			(xy 105.41 92.71) (xy 185.42 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0538ccc7-ccfe-4606-a82f-4bfaf49e0dfd")
+		(uuid "08f2d8e6-a64b-48c9-aa3b-9b815563374d")
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 110.49 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b10c220-9905-405b-a0f9-123e55bbdd06")
-	)
-	(wire
-		(pts
-			(xy 125.73 83.82) (xy 125.73 80.01)
+			(xy 127 110.49) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
@@ -149,73 +139,93 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.47) (xy 167.64 77.47)
+			(xy 163.83 62.23) (xy 184.15 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12ca34cb-1a55-44f3-a58e-636fd63006f8")
+		(uuid "10aaca87-8dfc-471a-9928-601c32e5e79d")
 	)
 	(wire
 		(pts
-			(xy 184.15 104.14) (xy 184.15 100.33)
+			(xy 162.56 104.14) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18e1b912-479a-4331-8224-99d8b0e8dd38")
+		(uuid "17c24eda-a0fb-4f20-856c-1ec7a3df47be")
 	)
 	(wire
 		(pts
-			(xy 187.96 67.31) (xy 102.87 67.31)
+			(xy 105.41 82.55) (xy 105.41 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28762057-3701-4d00-b2e0-a5c9399188c2")
+		(uuid "1da724c8-5af0-4b9c-86fe-d7bd941ad3f0")
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 167.64 80.01)
+			(xy 200.66 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e599875-bebb-49cb-a351-3fda665a6daa")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254e1065-5984-4671-837a-7be973d578e9")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa7ae29-6749-4d51-8a4d-38ae5e18618f")
+	)
+	(wire
+		(pts
+			(xy 146.05 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd86a3c-39ac-4b6f-be72-a8425ed39ddb")
+	)
+	(wire
+		(pts
+			(xy 109.22 106.68) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1fd2cc-939d-4b81-a8fe-57b6c9fdd471")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31d64fc5-27a8-4b3b-b5dd-1c6bda263bd2")
-	)
-	(wire
-		(pts
-			(xy 109.22 80.01) (xy 109.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33500077-388c-45c6-b4f4-1b2a411f7b70")
-	)
-	(wire
-		(pts
-			(xy 123.19 77.47) (xy 129.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3411b66f-7e94-4296-994d-919b2526ebd6")
-	)
-	(wire
-		(pts
-			(xy 143.51 80.01) (xy 148.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348bf038-8880-4a1d-9343-2264dc25922f")
 	)
 	(wire
 		(pts
@@ -229,16 +239,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 62.23) (xy 109.22 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36b4649c-3c7b-4d5f-b2b3-b1ac5175d10a")
-	)
-	(wire
-		(pts
 			(xy 109.22 58.42) (xy 109.22 62.23)
 		)
 		(stroke
@@ -246,6 +246,16 @@
 			(type default)
 		)
 		(uuid "37aa3bd1-6273-4a58-957c-bf7ed2cbf754")
+	)
+	(wire
+		(pts
+			(xy 109.22 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38298e8e-cbf6-4297-8de3-1ef4345bcefc")
 	)
 	(wire
 		(pts
@@ -269,7 +279,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 143.51 80.01)
+			(xy 144.78 110.49) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -289,16 +299,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 67.31) (xy 102.87 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e294f2-bbf5-418f-acc8-ec9232fe8e48")
-	)
-	(wire
-		(pts
 			(xy 142.24 34.29) (xy 148.59 34.29)
 		)
 		(stroke
@@ -306,6 +306,16 @@
 			(type default)
 		)
 		(uuid "45670891-aece-4f7c-8f7d-73cdf498a277")
+	)
+	(wire
+		(pts
+			(xy 208.28 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487ad194-070f-4e9b-8d79-0ee10211f51e")
 	)
 	(wire
 		(pts
@@ -319,13 +329,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 148.59 97.79)
+			(xy 124.46 104.14) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51e42246-6a3c-4208-a5a9-c34ba87ebd27")
+		(uuid "4fc3b47c-919f-4b17-bddf-0658b27d04d0")
+	)
+	(wire
+		(pts
+			(xy 109.22 62.23) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260c61c-8bc7-4fc9-87e4-309d8814e2bf")
 	)
 	(wire
 		(pts
@@ -339,13 +359,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 100.33) (xy 148.59 100.33)
+			(xy 127 106.68) (xy 130.81 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "541fa749-63f1-45a7-ad1f-7a2e69f4cc6b")
+		(uuid "56225725-e2da-443e-8b9b-d8d9ed698644")
 	)
 	(wire
 		(pts
@@ -359,23 +379,43 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 187.96 97.79)
+			(xy 143.51 104.14) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56604b33-0fa0-4597-9c95-4b24a1161948")
+		(uuid "57f6ed10-408b-4fd6-a341-b11ccb354212")
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 163.83 80.01)
+			(xy 165.1 110.49) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58090986-72f3-48bd-a5c5-cfb87aaa4f2a")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587c36b1-e99e-4104-963f-b542c5cd58d2")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d83f3a1-503c-4999-a38d-b7aa44f3f97f")
 	)
 	(wire
 		(pts
@@ -389,23 +429,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 180.34 77.47)
+			(xy 165.1 85.09) (xy 168.91 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67279b4d-eb2c-40f5-b22b-cfb6b9c2b13f")
-	)
-	(wire
-		(pts
-			(xy 125.73 80.01) (xy 129.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6758891e-7294-43e3-b97e-4eab16c80ddf")
+		(uuid "64eff20b-4f57-492e-86b4-ac9fc03e40e3")
 	)
 	(wire
 		(pts
@@ -439,13 +469,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 187.96 77.47)
+			(xy 144.78 106.68) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bc4b5bb-7d1c-450e-9340-5c772552725a")
+		(uuid "7dcfa53b-4533-4c9d-bd22-2a1ce23ab54c")
 	)
 	(wire
 		(pts
@@ -456,26 +486,6 @@
 			(type default)
 		)
 		(uuid "7faf7509-bfe3-4896-b160-c67c9e0197a4")
-	)
-	(wire
-		(pts
-			(xy 109.22 100.33) (xy 110.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804f7c7f-7a96-412a-81f8-cb6e13241e27")
-	)
-	(wire
-		(pts
-			(xy 109.22 83.82) (xy 109.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c9fb47-ec6a-4c03-9a2d-0d45af92bf93")
 	)
 	(wire
 		(pts
@@ -499,6 +509,36 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836d9058-2e30-4352-a9c1-c172d0df17a1")
+	)
+	(wire
+		(pts
+			(xy 109.22 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8720d063-1cc6-4d34-8358-7124a64eb476")
+	)
+	(wire
+		(pts
+			(xy 162.56 82.55) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88274a59-e96f-4395-803d-42e0053306f9")
+	)
+	(wire
+		(pts
 			(xy 180.34 34.29) (xy 187.96 34.29)
 		)
 		(stroke
@@ -506,6 +546,16 @@
 			(type default)
 		)
 		(uuid "8a1aec2c-e787-4ed8-a361-74db6e09f8d8")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb7debc-e39d-4bce-806d-f272dced51bb")
 	)
 	(wire
 		(pts
@@ -519,43 +569,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 102.87 97.79)
+			(xy 184.15 62.23) (xy 184.15 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e1116ce-8154-4fca-9afc-5123cc93af5a")
+		(uuid "9552b2a5-ebd9-41c1-a54f-1a4bb3fd5b89")
 	)
 	(wire
 		(pts
-			(xy 109.22 80.01) (xy 110.49 80.01)
+			(xy 109.22 85.09) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f9f79a6-2ca2-46aa-9181-d4a266181b83")
+		(uuid "96fb474e-118a-46d2-a3fc-de42feb600cf")
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 163.83 100.33)
+			(xy 165.1 88.9) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a01f2236-202e-44ef-b75c-0d084cac6241")
-	)
-	(wire
-		(pts
-			(xy 187.96 87.63) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a06523a3-c1d0-483a-9843-3511c1874fc1")
 	)
 	(wire
 		(pts
@@ -569,33 +609,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 125.73 104.14)
+			(xy 185.42 92.71) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a45a2ff8-537c-4581-87b6-8a83cc04b887")
+		(uuid "a680c1ff-a7fd-4b72-9563-ba37e3bfe860")
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 143.51 83.82)
+			(xy 127 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a970b768-9faf-49bf-ab11-cbd7e7188328")
-	)
-	(wire
-		(pts
-			(xy 184.15 100.33) (xy 187.96 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c85e62-d0b4-45ec-bb68-ecc58f961755")
 	)
 	(wire
 		(pts
@@ -629,13 +659,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 129.54 100.33)
+			(xy 184.15 58.42) (xy 187.96 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3966e33-90ef-4925-8d78-458cba541097")
+		(uuid "b1029ea4-7728-484a-9dc8-6bc60636a07d")
 	)
 	(wire
 		(pts
@@ -649,33 +679,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 110.49 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f348dc-b381-4ff1-b044-0a1ea2a27fa3")
-	)
-	(wire
-		(pts
-			(xy 125.73 104.14) (xy 125.73 100.33)
+			(xy 127 88.9) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7aa0876-0b78-40b9-a5e0-e09156797412")
-	)
-	(wire
-		(pts
-			(xy 187.96 77.47) (xy 187.96 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9fb77a0-7ed6-44e0-8b8c-2fe351a90708")
 	)
 	(wire
 		(pts
@@ -689,16 +699,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 100.33) (xy 109.22 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ecc990-d8ba-45d8-8ba4-177eb8b11922")
-	)
-	(wire
-		(pts
 			(xy 109.22 40.64) (xy 109.22 58.42)
 		)
 		(stroke
@@ -706,6 +706,16 @@
 			(type default)
 		)
 		(uuid "c2c7afe0-4074-403a-901a-1a09bf383159")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca06ac20-3b46-4b3b-b8a6-a55e3e747f59")
 	)
 	(wire
 		(pts
@@ -719,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 144.78 100.33)
+			(xy 146.05 88.9) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 163.83 83.82)
+			(xy 144.78 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -749,26 +759,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 184.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc70bb29-8196-4e6c-9fa0-00d7bbb7a264")
-	)
-	(wire
-		(pts
-			(xy 123.19 97.79) (xy 129.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce7bd4e-9c42-46aa-bb0b-eec98adc2be4")
-	)
-	(wire
-		(pts
 			(xy 109.22 36.83) (xy 109.22 40.64)
 		)
 		(stroke
@@ -776,16 +766,6 @@
 			(type default)
 		)
 		(uuid "df8fc5b4-931e-4792-be4d-8245e460e041")
-	)
-	(wire
-		(pts
-			(xy 187.96 55.88) (xy 187.96 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37fa1ac-4efa-475d-9a5b-2a4aa473d7dc")
 	)
 	(wire
 		(pts
@@ -799,23 +779,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 144.78 104.14)
+			(xy 111.76 82.55) (xy 105.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e482a5cf-4bd6-451b-a179-2b6df8de202a")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 146.05 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5b0b857-572b-4090-99a1-386296437857")
-	)
-	(wire
-		(pts
-			(xy 142.24 77.47) (xy 148.59 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cd3c28-9483-4362-9174-2e234a864bc8")
 	)
 	(wire
 		(pts
@@ -829,6 +809,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 88.9) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0a2dd2-5dcd-4a68-bcef-d7f1b1fe7c1c")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 167.64 58.42)
 		)
 		(stroke
@@ -839,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 163.83 104.14)
+			(xy 146.05 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -879,6 +869,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ac2144-a149-429e-a8c7-046cf9cbdf11")
+	)
+	(wire
+		(pts
 			(xy 123.19 34.29) (xy 129.54 34.29)
 		)
 		(stroke
@@ -896,16 +896,6 @@
 			(type default)
 		)
 		(uuid "faa79556-a867-4f9c-b74b-24d882241989")
-	)
-	(wire
-		(pts
-			(xy 109.22 83.82) (xy 125.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe142cbf-3dd5-4039-b113-70b14c25e440")
 	)
 	(global_label "BTN_SEQ_TAP"
 		(shape input)
@@ -1424,14 +1414,14 @@
 	)
 	(hierarchical_label "ws2812_out"
 		(shape input)
-		(at 200.66 97.79 0)
+		(at 106.68 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cc29fbd6-1d72-4aac-9ea6-283ff08832d0")
+		(uuid "6c20d94c-dcd9-48f2-8e8c-356410a738ba")
 	)
 	(sheet
 		(at 157.48 127)
@@ -1489,7 +1479,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 91.44)
+		(at 168.91 76.2)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1505,7 +1495,7 @@
 		)
 		(uuid "0652b80a-ba37-4700-9ffa-1c2869b56f56")
 		(property "Sheetname" "WS28143"
-			(at 167.64 90.7284 0)
+			(at 168.91 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1516,7 +1506,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 161.29 104.648 0)
+			(at 162.56 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1527,7 +1517,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 167.64 91.44 0)
+			(at 168.91 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,18 +1528,8 @@
 			)
 		)
 		(pin "out" input
-			(at 180.34 97.79 0)
+			(at 168.91 82.55 180)
 			(uuid "9a3e9792-eb75-4c79-b7e2-776fd6ecfa23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 167.64 97.79 180)
-			(uuid "0d22c70c-7ba0-4df2-baab-54ea5f3536f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,8 +1537,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 181.61 82.55 0)
+			(uuid "0d22c70c-7ba0-4df2-baab-54ea5f3536f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 167.64 100.33 180)
+			(at 168.91 85.09 180)
 			(uuid "4de5dbf9-17a4-462a-8bd7-fecdb52e3395")
 			(effects
 				(font
@@ -1576,7 +1566,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 71.12)
+		(at 168.91 97.79)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1592,7 +1582,7 @@
 		)
 		(uuid "0956bd05-b5b1-41dc-8874-9ccd219a13b3")
 		(property "Sheetname" "WS28139"
-			(at 167.64 70.4084 0)
+			(at 168.91 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1603,7 +1593,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 161.29 84.328 0)
+			(at 162.56 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1614,7 +1604,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 167.64 71.12 0)
+			(at 168.91 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,18 +1615,8 @@
 			)
 		)
 		(pin "out" input
-			(at 180.34 77.47 0)
+			(at 168.91 104.14 180)
 			(uuid "10a4ef70-0606-4d28-b56a-fa5a4e708c47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 167.64 77.47 180)
-			(uuid "7a0dbeeb-2fd1-438e-b354-ac1ab58d4c5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,8 +1624,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 181.61 104.14 0)
+			(uuid "7a0dbeeb-2fd1-438e-b354-ac1ab58d4c5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 167.64 80.01 180)
+			(at 168.91 106.68 180)
 			(uuid "3eea07ee-1dcf-4c42-b485-34ea34e03aa5")
 			(effects
 				(font
@@ -1663,7 +1653,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 91.44)
+		(at 149.86 76.2)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1679,7 +1669,7 @@
 		)
 		(uuid "12468bff-0d38-41ef-9419-9ad09516259d")
 		(property "Sheetname" "WS28142"
-			(at 148.59 90.7284 0)
+			(at 149.86 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1690,7 +1680,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 142.24 104.648 0)
+			(at 143.51 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1701,7 +1691,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 148.59 91.44 0)
+			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1712,18 +1702,8 @@
 			)
 		)
 		(pin "out" input
-			(at 161.29 97.79 0)
+			(at 149.86 82.55 180)
 			(uuid "592338a8-58f7-438f-923b-79575071fd0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 148.59 97.79 180)
-			(uuid "304b8965-11ff-46ec-8294-1ded3b2e25d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,8 +1711,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 162.56 82.55 0)
+			(uuid "304b8965-11ff-46ec-8294-1ded3b2e25d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 148.59 100.33 180)
+			(at 149.86 85.09 180)
 			(uuid "658cd9f5-5f10-4016-ad86-c05d30b85e43")
 			(effects
 				(font
@@ -2254,7 +2244,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 91.44)
+		(at 111.76 76.2)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2270,7 +2260,7 @@
 		)
 		(uuid "57723f94-cb5f-4da3-9dd7-895dcd53ef0e")
 		(property "Sheetname" "WS28140"
-			(at 110.49 90.7284 0)
+			(at 111.76 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2281,7 +2271,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 104.14 104.648 0)
+			(at 105.41 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2292,7 +2282,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 110.49 91.44 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,18 +2293,8 @@
 			)
 		)
 		(pin "out" input
-			(at 123.19 97.79 0)
+			(at 111.76 82.55 180)
 			(uuid "59673252-9e21-40f2-9273-550afb150a19")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 110.49 97.79 180)
-			(uuid "710d6b68-29fe-4e5d-a2e2-e5ebbbcf2b4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,8 +2302,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 124.46 82.55 0)
+			(uuid "710d6b68-29fe-4e5d-a2e2-e5ebbbcf2b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 110.49 100.33 180)
+			(at 111.76 85.09 180)
 			(uuid "75f58b1b-910c-452b-b667-a1c7a8ad65fe")
 			(effects
 				(font
@@ -2396,7 +2386,7 @@
 		)
 	)
 	(sheet
-		(at 148.59 71.12)
+		(at 149.86 97.79)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2412,7 +2402,7 @@
 		)
 		(uuid "5ce4628b-3d63-4a0c-be07-03ef374e1156")
 		(property "Sheetname" "WS28138"
-			(at 148.59 70.4084 0)
+			(at 149.86 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2423,7 +2413,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 142.24 84.328 0)
+			(at 143.51 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2434,7 +2424,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 148.59 71.12 0)
+			(at 149.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,18 +2435,8 @@
 			)
 		)
 		(pin "out" input
-			(at 161.29 77.47 0)
+			(at 149.86 104.14 180)
 			(uuid "15a2db24-0539-4ded-a035-a647b5e922c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 148.59 77.47 180)
-			(uuid "af0ad9ae-e79f-478f-b993-177938094094")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,8 +2444,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 162.56 104.14 0)
+			(uuid "af0ad9ae-e79f-478f-b993-177938094094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 148.59 80.01 180)
+			(at 149.86 106.68 180)
 			(uuid "dfa374dc-088e-4264-a191-9c0148960d1f")
 			(effects
 				(font
@@ -2822,7 +2812,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 91.44)
+		(at 130.81 76.2)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2838,7 +2828,7 @@
 		)
 		(uuid "9219fbdf-b758-472c-b511-00f3d5445128")
 		(property "Sheetname" "WS28141"
-			(at 129.54 90.7284 0)
+			(at 130.81 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2849,7 +2839,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 123.19 104.648 0)
+			(at 124.46 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,7 +2850,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 129.54 91.44 0)
+			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,18 +2861,8 @@
 			)
 		)
 		(pin "out" input
-			(at 142.24 97.79 0)
+			(at 130.81 82.55 180)
 			(uuid "f4d2e765-cc84-43dd-b491-bd2f417a6461")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 129.54 97.79 180)
-			(uuid "8e486a98-3383-4d33-8209-584c000a1169")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,8 +2870,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 143.51 82.55 0)
+			(uuid "8e486a98-3383-4d33-8209-584c000a1169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 129.54 100.33 180)
+			(at 130.81 85.09 180)
 			(uuid "16e4b801-6b3d-44b7-8f19-dd26775f1fd6")
 			(effects
 				(font
@@ -2909,7 +2899,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 71.12)
+		(at 111.76 97.79)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2925,7 +2915,7 @@
 		)
 		(uuid "94d7967b-daf8-4acb-9486-320ec977c38c")
 		(property "Sheetname" "WS28136"
-			(at 110.49 70.4084 0)
+			(at 111.76 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2936,7 +2926,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 104.14 84.328 0)
+			(at 105.41 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2947,7 +2937,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 110.49 71.12 0)
+			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2958,18 +2948,8 @@
 			)
 		)
 		(pin "out" input
-			(at 123.19 77.47 0)
+			(at 111.76 104.14 180)
 			(uuid "dff17154-bbf7-4cb1-8607-1592f3a37f84")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 110.49 77.47 180)
-			(uuid "82206d1f-7269-4103-9b3b-4709d980138b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,8 +2957,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 124.46 104.14 0)
+			(uuid "82206d1f-7269-4103-9b3b-4709d980138b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 110.49 80.01 180)
+			(at 111.76 106.68 180)
 			(uuid "586d9dbb-7d2b-4921-b4bc-79a31d179d1f")
 			(effects
 				(font
@@ -3051,7 +3041,7 @@
 		)
 	)
 	(sheet
-		(at 129.54 71.12)
+		(at 130.81 97.79)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3067,7 +3057,7 @@
 		)
 		(uuid "aa76150f-5ded-474e-a83c-485f6545220f")
 		(property "Sheetname" "WS28137"
-			(at 129.54 70.4084 0)
+			(at 130.81 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3078,7 +3068,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 123.19 84.328 0)
+			(at 124.46 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3089,7 +3079,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 129.54 71.12 0)
+			(at 130.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,18 +3090,8 @@
 			)
 		)
 		(pin "out" input
-			(at 142.24 77.47 0)
+			(at 130.81 104.14 180)
 			(uuid "ed89f4ea-4964-4837-8894-19f3257a6c93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN" input
-			(at 129.54 77.47 180)
-			(uuid "9da6ddd3-11da-48d1-8369-372031d09480")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,8 +3099,18 @@
 				(justify left)
 			)
 		)
+		(pin "IN" input
+			(at 143.51 104.14 0)
+			(uuid "9da6ddd3-11da-48d1-8369-372031d09480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "VDD" input
-			(at 129.54 80.01 180)
+			(at 130.81 106.68 180)
 			(uuid "a5b3a2db-0e39-4781-b56a-907702b778f0")
 			(effects
 				(font
@@ -3761,7 +3751,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 91.44)
+		(at 187.96 49.53)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3777,7 +3767,7 @@
 		)
 		(uuid "de70b91c-9c39-4556-b8e6-60c91c8c8e6f")
 		(property "Sheetname" "WS28144"
-			(at 187.96 90.7284 0)
+			(at 187.96 48.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3788,7 +3778,7 @@
 			)
 		)
 		(property "Sheetfile" "ws2812.kicad_sch"
-			(at 181.61 104.648 0)
+			(at 181.61 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3799,7 +3789,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 187.96 91.44 0)
+			(at 187.96 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3800,7 @@
 			)
 		)
 		(pin "out" input
-			(at 200.66 97.79 0)
+			(at 200.66 55.88 0)
 			(uuid "c308f2cb-9472-43c9-a3df-52f8a343a96c")
 			(effects
 				(font
@@ -3820,7 +3810,7 @@
 			)
 		)
 		(pin "IN" input
-			(at 187.96 97.79 180)
+			(at 187.96 55.88 180)
 			(uuid "207649f6-99bf-4e1a-bfb3-7f493c358875")
 			(effects
 				(font
@@ -3830,7 +3820,7 @@
 			)
 		)
 		(pin "VDD" input
-			(at 187.96 100.33 180)
+			(at 187.96 58.42 180)
 			(uuid "47addfa9-50d1-4707-998a-1627eb51bfe9")
 			(effects
 				(font
